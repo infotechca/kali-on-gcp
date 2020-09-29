@@ -1,5 +1,6 @@
 # How to Upload or Install Kali Linux on Google Cloud
 ## _Steups to do_
+[link to Google Cloud Help!](https://cloud.google.com/compute/docs/import/import-existing-image)
 - [x] 1. Prepared your system in a VirtualBox environment
 - [x] 2. Configure SSH or user login access on the image
 - [x] 3. Convert a .vdi or .qcow2 disk image to disk.raw format
@@ -94,6 +95,8 @@ In my case source locations: `h:\0-VirtualBox\Kali\Kali.qcow` Destination locati
 c:\Program Files\Oracle\VirtualBox>
 VBoxManage clonemedium  h:\0-VirtualBox\Kali\Kali.qcow f:\disk.raw --format RAW
 ```
+![Convert .qcow disk image to disk.raw format](https://github.com/infotechca/kali-on-gcp/blob/master/convert.png)
+
 ---
 ### 4. Compress the disk.raw image file
 On Windows Open up your WSL Linux or WSL Ubuntu.<br/>
@@ -103,7 +106,18 @@ Change directory to `disk.raw` file location: In my case
 cd /mnt/f/
 tar --format=oldgnu -Sczf kali-image.tar.gz disk.raw
 ```
+![Compress the disk.raw image file](https://github.com/infotechca/kali-on-gcp/blob/master/compress.png)
+
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Important**: do not rename `disk.raw` otherwise it will not work.
 
-## Complete Video Tutorial on YouTube.com/infotechca
+### Complete Video Tutorial on [link to YouTube.com/infotechca](https://www.youtube.com/watch?v=QiBPJICfcMw)
 [![Click here to watch on YouTube.](http://img.youtube.com/vi/QiBPJICfcMw/0.jpg)](http://www.youtube.com/watch?v=QiBPJICfcMw "How to Upload or Install Kali Linux on Google Cloud 100% Work!")
+---
+▀▄▀▄▀▄ [ Follow us on ] ▄▀▄▀▄▀<br/>
+Website:    https://www.infotechca.com<br/>
+YouTube:    https://youtube.com/infotechca<br/>
+Twitter:    https://twitter.com/infotechca<br/>
+Facebook:   https://www.facebook.com/infotechca.hyd<br/>
+Instagram:  https://www.instagram.com/infotechca<br/>
+Pinterest:  https://pinterest.com/infotechca<br/>
+Github:     https://github.com/infotechca<br/>
