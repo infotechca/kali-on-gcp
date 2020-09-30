@@ -1,6 +1,6 @@
 # How to Upload or Install Kali Linux on Google Cloud
 ## _Steups to do_
-[link to Google Cloud Help!](https://cloud.google.com/compute/docs/import/import-existing-image)
+**Ctrl+Click** [Google Cloud Help!](https://cloud.google.com/compute/docs/import/import-existing-image)
 - [x] 1. Prepared your system in a VirtualBox environment
 - [x] 2. Configure SSH or user login access on the image
 - [x] 3. Convert a .vdi or .qcow2 disk image to disk.raw format
@@ -90,6 +90,7 @@ c:\Program Files\Oracle\VirtualBox>
 **Syntax**: `VBoxManage clonemedium guest-image ~/disk.raw --format RAW`<br/>
 
 In my case source locations: `h:\0-VirtualBox\Kali\Kali.qcow` Destination location `f:\disk.raw`<br/>
+
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **_Very Important_**: do not rename `disk.raw` to any other name but `disk.raw`
 ```cmd
 c:\Program Files\Oracle\VirtualBox>
@@ -110,7 +111,7 @@ tar --format=oldgnu -Sczf kali-image.tar.gz disk.raw
 
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Important**: do not rename `disk.raw` otherwise it will not work.
 
-### Complete Video Tutorial on [link to YouTube.com/infotechca](https://www.youtube.com/watch?v=QiBPJICfcMw)
+### Complete Video Tutorial on [YouTube.com/infotechca](https://www.youtube.com/watch?v=QiBPJICfcMw)
 [![Click here to watch on YouTube.](http://img.youtube.com/vi/QiBPJICfcMw/0.jpg)](http://www.youtube.com/watch?v=QiBPJICfcMw "How to Upload or Install Kali Linux on Google Cloud 100% Work!")
 ---
 ▀▄▀▄▀▄ [ Follow us on ] ▄▀▄▀▄▀<br/>
