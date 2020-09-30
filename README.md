@@ -1,6 +1,6 @@
 # How to Upload or Install Kali Linux on Google Cloud
 ## _Steups to do_
-**Ctrl+Click** [Google Cloud Help!](https://cloud.google.com/compute/docs/import/import-existing-image)
+[More Help on Google Cloud!](https://cloud.google.com/compute/docs/import/import-existing-image)
 - [x] 1. Prepared your system in a VirtualBox environment
 - [x] 2. Configure SSH or user login access on the image
 - [x] 3. Convert a .vdi or .qcow2 disk image to disk.raw format
